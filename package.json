@@ -2,10 +2,12 @@
   "name": "trumpipsum",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fionnbharra.github.io/trump-markov",
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
   "dependencies": {
+    "gh-pages": "^0.12.0",
     "lodash.times": "^4.3.2",
     "markovchain": "^1.0.2",
     "react": "^15.4.2",
