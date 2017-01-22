@@ -1,0 +1,26 @@
+.Header {
+  background-color: #3cc47c;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+.Header svg {
+  height: 190px;
+  stroke: #fff;
+  fill: #fff;
+}
+
+.Header:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
