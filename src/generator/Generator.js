@@ -50,7 +50,7 @@ class Generator extends Component {
                 defaultValue={this.state.numberOfParagraphs}
                 onChange={this.handleNumberInputChange}
                 />
-                sentances of Trump speech
+                sentences of Trump speech
           </label>
           <button>
             {hasGenerated ? "Go again" : "Generate"}
